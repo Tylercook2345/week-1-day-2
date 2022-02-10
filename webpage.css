@@ -1,0 +1,100 @@
+.container {  display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.3fr 1.2fr 2.7fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "Picture Picture Picture"
+      ". main-text ."
+      "map- footer .";
+  }
+  
+  .main-text {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.7fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "date date ."
+      "pic-1 text-1 button-1"
+      "pic-2 text-2 button-2"
+      "pic-3 text-3 button-3"
+      "pic-4 text-4 button-4";
+    grid-area: main-text;
+  }
+  
+  .date { grid-area: date; }
+  
+  .text-1 { grid-area: text-1; }
+  
+  .text-2 { grid-area: text-2; }
+  
+  .text-3 { grid-area: text-3; }
+  
+  .text-4 { grid-area: text-4; }
+  
+  .pic-1 { grid-area: pic-1; }
+  
+  .pic-2 { grid-area: pic-2; }
+  
+  .pic-3 { grid-area: pic-3; }
+  
+  .pic-4 { grid-area: pic-4; }
+  
+  .button-1 { grid-area: button-1; }
+  
+  .button-2 { grid-area: button-2; }
+  
+  .button-3 { grid-area: button-3; }
+  
+  .button-4 { grid-area: button-4; }
+  
+  .map- { grid-area: map-; }
+  
+  .footer {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 1.1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info Shows Social"
+      "location piano Facebook"
+      "email Raisin Twitter"
+      "call-us fame Youtube"
+      ". purple Instagram";
+    grid-area: footer;
+  }
+  
+  .piano { grid-area: piano; }
+  
+  .Raisin { grid-area: Raisin; }
+  
+  .fame { grid-area: fame; }
+  
+  .purple { grid-area: purple; }
+  
+  .Shows { grid-area: Shows; }
+  
+  .Social { grid-area: Social; }
+  
+  .Facebook { grid-area: Facebook; }
+  
+  .Twitter { grid-area: Twitter; }
+  
+  .Youtube { grid-area: Youtube; }
+  
+  .Instagram { grid-area: Instagram; }
+  
+  .Info { grid-area: Info; }
+  
+  .location { grid-area: location; }
+  
+  .email { grid-area: email; }
+  
+  .call-us { grid-area: call-us; }
+  
+  .Picture { grid-area: Picture; }
+  .background-black {grid-area: 4 / 1 / 5 / 4;
+}
